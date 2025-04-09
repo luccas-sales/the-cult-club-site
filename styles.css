@@ -270,19 +270,3 @@ ul li {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-@keyframes fadeInSlideUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.fade-in {
-    animation: fadeInSlideUp 0.8s ease-in-out forwards;
-    opacity: 0; /* Garante que o elemento esteja invisível antes da animação */
-}

@@ -1,0 +1,80 @@
+@media (max-width: 1000px) {
+    body {
+        padding: 2rem;
+        gap: 0rem;
+        overflow: auto;
+    }
+
+    .main-content {
+        padding: 1rem;
+    }
+
+    .main-content h1 {
+        font-size: 3rem;
+    }
+
+    .main-content h2 {
+        font-size: 2rem;
+    }
+
+    .main-content p {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .features-technologies {
+        transform: scale(0.5);
+        gap: 0rem;
+        height: 25rem;
+        width: 80rem;
+        position: static;
+    }
+
+    .features,
+    .technologies {
+
+        padding: 1.5rem;
+    }
+
+    ul li {
+        padding-left: 2rem;
+        font-size: 1rem;
+    }
+
+    .hosting {
+        padding: 1.5rem;
+    }
+
+    .alert p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .alert span {
+        font-size: 0.9rem;
+    }
+
+    .final {
+        padding: 1rem;
+    }
+
+    .final p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        transform: scale(0.6);
+    }
+}
