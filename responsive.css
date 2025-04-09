@@ -27,16 +27,15 @@
     }
 
     .features-technologies {
-        transform: scale(0.5);
+        transform: scale(0.7);
         gap: 0rem;
         height: 25rem;
-        width: 80rem;
+        width: 75rem;
         position: static;
     }
 
     .features,
     .technologies {
-
         padding: 1.5rem;
     }
 
