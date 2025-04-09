@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100vh;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+span {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 50rem;
+    z-index: 1;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    border-bottom: 0.2rem solid #fff;
+    padding-bottom: 1rem;
+}
+
+.main-content h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.main-content p {
+    font-size: 1.5rem;
+}
+
+.main-content a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border: 0.2rem solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-content a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.hosting {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    width: 40rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+    gap: 0.5rem;
+}
+
+.alert p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.alert span {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-decoration: underline;
+}
+
+.button {
+    font-size: 1.2rem;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.8rem;
+    font-weight: 900;
+    text-decoration: none;
+    border: 0.2rem solid #fff;
+}
+
+.button:hover {
+    transition: all 0.3s ease;
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    color: #fff;
+}
+
+.final p {
+    font-size: 1.3rem;
+}
+
+.features-technologies {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 130rem;
+    position: absolute;
+}
+
+.features-technologies h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.features-technologies p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.features-technologies li {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 2rem;
+    border: 0.2rem dashed #fff;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 2rem;
+    border: 0.2rem dashed #fff;
+}
+
+ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.features ul li::before {
+    content: '➤';
+    position: absolute;
+    left: 0;
+
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.technologies ul li:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.technologies ul li:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.technologies ul li:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.technologies ul li:nth-child(4)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.technologies ul li:nth-child(5)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeInSlideUp 0.8s ease-in-out forwards;
+    opacity: 0; /* Garante que o elemento esteja invisível antes da animação */
+}
