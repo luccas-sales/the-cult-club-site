@@ -67,7 +67,7 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     body {
         transform: scale(0.8);
     }
@@ -75,6 +75,6 @@
 
 @media (max-width: 400px) {
     body {
-        transform: scale(0.6);
+        transform: scale(0.7);
     }
 }
